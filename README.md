@@ -12,7 +12,8 @@ Components of Covisint Developer Portal consist of:
 ● Platform Application Services 
 ● Platform Administration (e.g. SDKs that provide application access to the platform libraries)
 
-For more information: For more details: https://developer.covisint.com/learn/dp/-/bookdeveloper-portal_portal_solution_center.html
+For more details: 
+https://developer.covisint.com/learn/dp/-/bookdeveloper-portal_portal_solution_center.html
  
 
 To create an application on Covisint Developer Portal the system requirements are:
@@ -39,13 +40,13 @@ For more information: https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/bo
 
 2.0 Creating an Application using Covisint Developer Portal
 
-Covisint provides two ways to develop applications: Portlets and OpenSocial Gadgets. Portlets are web applications written with Java and implement the set of rules required to allow cohabitation. With an existing Java Platform, portlets allow building of applications using the same libraries. Portlet containers aggregagate the set of portlets that will appear on the designated page. OpenSocial provides the technologies along with a set of APIs allowing the application to gather information from social environments.
+Covisint provides two ways to develop applications: Portlets and OpenSocial Gadgets. Portlets are web applications written with Java and implement the set of rules required to allow cohabitation. With an existing Java Platform, portlets allow building of applications using the same libraries. Portlet containers aggregate the set of portlets that will appear on the designated page. OpenSocial provides the technologies along with a set of APIs allowing the application to gather information from social environments.
 
 2.1 How to configure your Application to the Developer Portal 
-A webapp must preexist within Eclipse in order to build a WAR FIle.
+A webapp must preexist within Eclipse in order to build a WAR File.
 For additional information https://en.wikipedia.org/wiki/WAR_(file_format)Wikipedia
 
-The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register. to access the the management screen:
+The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register. to access the management screen:
 	Log into Covisint Developer Portal SXP (Covisint)
 	Go to Admin
 	Go to Ctrl Panel
