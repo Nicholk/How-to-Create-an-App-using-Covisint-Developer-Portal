@@ -37,11 +37,33 @@ For more information: https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/bo
 
 2.0 Creating an Application using Covisint Developer Portal
 
+Creating an Application using Covisint Developer Portal
+Covisint provides two ways to develop applications Portlets and OpenSocial Gadgets. Portlets are web applications written with Java and implement the set of rules required allowing cohabitation. With an existing Java Platform, Portlets allow building of applications using the same libraries.Portlet containers aggregagate the sset of portlets that will appear on the designated page. OpenSocial proides the technologies and a set of APIs allowing the applicationto gather information from
+social environments.
+
 2.1 How to configure your Application to the Developer Portal 
-
-
+[A webapp must preexist within Eclipse in order to build a WAR FIle.](https://en.wikipedia.org/wiki/WAR_(file_format)Wikipedia)
+The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register.
+	Log into Covisint Developer Portal SXP (Covisint)
+	Go to Admin
+	Go to Ctrl Panel
+	Add file to App Mgr> App becomes available on Covisint Platform 
+	Select Site to access lab
+	Click “Install
+	Browse for file 
+	Click Install
+	Please Note: Instances are available in the “sites” tab, now ready to be deployed
+	Choose selection
+	Private page>add page>>name>select>done
+	Create and empty page 
+	Code must be HTML
+	HTML (API) will make the call to the portlet
+	A container MUST be created for the HTML Code
+	Go back into Cov Dev Portal> click add new web content
+	Drag and drop portlet to page
 
 3.0 How to Access the SDK
+
 The SDK will allow client access to the API at the endpoint. Key features of the Covisint Developer Solution Center 
 include having the ability to build portlets, self-service deployments, instance management, logging/debugging, and monitoring within the solution, 
 by selecting “new application”, identify the application name and description and “save” allowing customization of an application based upon requirement. 
@@ -52,5 +74,19 @@ The Class will populate the portlet by default. The SDK client (i.e. Person SDK,
 For more information: https://github.com/Covisint/samples/tree/master/http-api-clients
 
 3.1 How to deploy the instance
+Nodes are an open-source cross-platform runtime environment for developing web applications written in JavaScript. Nodes implement programming for web application in JavaScript by allowing reuse of service models and interfaces between client-side and server-side. When deploying release, there is only one required runtime node per instance granting the runtime node of that instance to run a copy of the application in its original format.
 
-3.2 Putting the App on the Developer Portal
+	Click the Solutions tab.
+	On the left panel of the Solution Center, click Solutions. A list of all the solutions for your company that have    access to the solution center will be displayed.
+	Select your solution by clicking on the solution name.
+	Click the Instances tab. A list of all the instances for the selected solution will be displayed.
+	Select an instance by clicking on the instance name to retrieve an instance.
+	Click the Deploy tab.
+	Click Deploy a different Release. A list of active solution releases will be displayed.
+	Click on the rocket icon next to the desired instance name.  The release will be deployed, and will be available once the nodes have started.
+	
+The number of portal runtime nodes for a development instance is 1.
+The number of portal runtime nodes for a pre-production instance is 2.
+By default, the number of portal runtime nodes for a production instance is 2.
+
+
