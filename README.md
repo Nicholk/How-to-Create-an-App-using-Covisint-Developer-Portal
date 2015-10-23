@@ -8,9 +8,9 @@ The Developer Portal is the designated environment used for importing applicatio
 The Developer Portal requires an identity realm for managing companies and users with external and internal accounts.
 Components of Covisint Developer Portal consist of:
 
-● Platform Applications and APIs 
-● Platform Application Services 
-● Platform Administration (e.g. SDKs that provide application access to the platform libraries)
+Platform Applications and APIs 
+Platform Application Services 
+Platform Administration (e.g. SDKs that provide application access to the platform libraries)
 
 For more details: 
 https://developer.covisint.com/learn/dp/-/bookdeveloper-portal_portal_solution_center.html
