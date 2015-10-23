@@ -1,8 +1,9 @@
 # How-to-Create-an-App-using-Covisint-Developer-Portal
 User guide for developers to access Covisint Cloud Platform
+
 Overview
 	
-	
+
 The Developer Portal is the designated environment used for importing applications, staging, testing, and production. 
 The Developer Portal requires an identity realm for managing companies and users with external and internal accounts.
 Components of Covisint Developer Portal consist of:
@@ -25,25 +26,26 @@ Maven Central archetype catalog configured
 
 1.0 Setting Up a Solution Instance
 
-Solution instances, also known as instances, allow grouping of platform resources run simultaneously. 
+Solution instances, also known as instances, allow grouping of platform resources to run simultaneously. 
 Each instance has its own portal and identity realm, which identifies the instance type and its behavior 
-within a development, pre-production, or production environment. Instances are the target of deployments for 
-releases and create multiple instances for a solution.Once your instance has been successfully provisioned, go back to the Instance page, 
-and click on the instance name to note down the instance details. The admin login Id is always “[SOLUTION ALIAS-INSTANCE ALIAS_ADMIN]”. 
-This is the SEED ACCOUNT for this solution instance 
+within development, pre-production, or production environment. Instances are the target of deployments for 
+releases and create multiple instances for a solution. 
+
+Within the developer portal, once your instance has been successfully provisioned, go back to the Instance page, and click on the instance name to note down the instance details. The admin login Id is always “[SOLUTION ALIAS-INSTANCE ALIAS_ADMIN]”. 
+This is the SEED ACCOUNT for this solution instance. 
 
 For more information: https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/book/developer-portal/managing_instances/manage_applications.html
 
 
 2.0 Creating an Application using Covisint Developer Portal
 
-Creating an Application using Covisint Developer Portal
-Covisint provides two ways to develop applications Portlets and OpenSocial Gadgets. Portlets are web applications written with Java and implement the set of rules required allowing cohabitation. With an existing Java Platform, Portlets allow building of applications using the same libraries.Portlet containers aggregagate the sset of portlets that will appear on the designated page. OpenSocial proides the technologies and a set of APIs allowing the applicationto gather information from
-social environments.
+Covisint provides two ways to develop applications: Portlets and OpenSocial Gadgets. Portlets are web applications written with Java and implement the set of rules required to allow cohabitation. With an existing Java Platform, portlets allow building of applications using the same libraries. Portlet containers aggregagate the set of portlets that will appear on the designated page. OpenSocial provides the technologies along with a set of APIs allowing the application to gather information from social environments.
 
 2.1 How to configure your Application to the Developer Portal 
-[A webapp must preexist within Eclipse in order to build a WAR FIle.](https://en.wikipedia.org/wiki/WAR_(file_format)Wikipedia)
-The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register.
+A webapp must preexist within Eclipse in order to build a WAR FIle.
+For additional information https://en.wikipedia.org/wiki/WAR_(file_format)Wikipedia
+
+The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register. to access the the management screen:
 	Log into Covisint Developer Portal SXP (Covisint)
 	Go to Admin
 	Go to Ctrl Panel
@@ -64,17 +66,13 @@ The application management screen allows you to register your external applicati
 
 3.0 How to Access the SDK
 
-The SDK will allow client access to the API at the endpoint. Key features of the Covisint Developer Solution Center 
-include having the ability to build portlets, self-service deployments, instance management, logging/debugging, and monitoring within the solution, 
-by selecting “new application”, identify the application name and description and “save” allowing customization of an application based upon requirement. 
-The Covisint SDK dependencies file are available in the library on the Developer Portal.  You must create a solution instance in order to add applications that will provide 
-the secret access The AppID, ClientID, and the client secret button will appear. 
-The Class will populate the portlet by default. The SDK client (i.e. Person SDK, Service SDK, etc.) endpoint is created with Covisint API.
+The SDK will allow client access to the API at the endpoint. Some of the key features of the Covisint Developer Solution Center include, but not limited to, having the ability to build portlets, self-service deployments, instance management, logging/debugging, and monitoring within the solution. Within the Solution Center, selecting “new application”, identify the application name and description and “save”, grants customization of an application based upon requirement. 
+The Covisint SDK dependencies file are available in the library on the Developer Portal.  A solution instance must be created in order to proceed to add applications that will provide the secret access. The AppID, ClientID, and the client secret button will appear. The Class will populate the portlet by default. The SDK client endpoint is created with Covisint API.
 
 For more information: https://github.com/Covisint/samples/tree/master/http-api-clients
 
 3.1 How to deploy the instance
-Nodes are an open-source cross-platform runtime environment for developing web applications written in JavaScript. Nodes implement programming for web application in JavaScript by allowing reuse of service models and interfaces between client-side and server-side. When deploying release, there is only one required runtime node per instance granting the runtime node of that instance to run a copy of the application in its original format.
+Nodes are an open-source cross-platform runtime environment for developing web applications written in JavaScript. Nodes implement programming for web application in JavaScript by allowing reuse of service models and interfaces between client-side and server-side. When deploying release, there is only one required runtime node per instance needed to grant the runtime node of that instance in order to run a copy of the application in its original format. To access the instance for deployment:
 
 	Click the Solutions tab.
 	On the left panel of the Solution Center, click Solutions. A list of all the solutions for your company that have    access to the solution center will be displayed.
