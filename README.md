@@ -10,6 +10,7 @@ Components of Covisint Developer Portal consist of:
 
 Platform Applications and APIs 
 Platform Application Services 
+* 
 Platform Administration (e.g. SDKs that provide application access to the platform libraries)
 
 For more details: 
