@@ -2,7 +2,8 @@
 User guide for developers to access Covisint Cloud Platform
 
 Overview
-	
+
+![](Capture.JPG)	
 
 The Developer Portal is the designated environment used for importing applications, staging, testing, and production. 
 The Developer Portal requires an identity realm for managing companies and users with external and internal accounts.
